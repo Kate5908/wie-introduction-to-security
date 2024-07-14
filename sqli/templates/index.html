@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<header>
+        <title>Willow's Wonderful Website!</title>
+        <style>
+                body {
+                        background-image: url('/static/homepage.png');
+                        height: 100%;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                }
+        </style> 
+</header>
+<body>
+        {% if error != "" %}
+                <div>
+                        <p>
+                                {{error}}
+                        </p>
+                </div>
+        {% endif %}
+        <form action="/login" method = "POST">
+                <p>name <input type = "text" name = "username" /></p>
+                <p>age <input type = "text" name = "password" /></p>
+                <p><input type = "submit" value = "Submit" /></p>
+             </form>
+</body>
