@@ -1,0 +1,8 @@
+Fictional Profile 3
+Name: Josh Smith
+Age: 22
+Location: Sydney
+Education: Bachelor of architecture at usyd
+Enjoys: surfing, pies, concerts
+Dietary Preferences: vegan
+Travel History: Sydney → Gold Coast
